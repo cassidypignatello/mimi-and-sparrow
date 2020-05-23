@@ -1,0 +1,19 @@
+{
+  "name": "mimi-and-sparrow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:cassidypignatello/mimi-and-sparrow.git",
+  "author": "Cassidy <cassidy.pignatello@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "slate watch",
+    "start:dev": "slate start --env development",
+    "start:prod": "slate start --env production",
+    "deploy:dev": "slate deploy --env development",
+    "deploy:prod": "slate deploy --env production",
+    "build": "slate build"
+  },
+  "dependencies": {
+    "@shopify/slate": "^0.14.0"
+  }
+}
